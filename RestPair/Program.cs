@@ -9,6 +9,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<MusicRecordsRepo>();
+builder.Services.AddCors();
+
 
 var app = builder.Build();
 
