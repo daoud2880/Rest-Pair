@@ -17,9 +17,26 @@ namespace RestPair
             _musicRecords.Add(new MusicRecord("Abbey Road", "The Beatles", 1969, "Rock"));
         }
 
-        public List<MusicRecord> GetAllMusicRecords()
+        public List<MusicRecord> GetAllMusicRecords(string? filter = null)
         {
-            List<MusicRecord> copy = new List<MusicRecord>(_musicRecords);
+            List<MusicRecord> copy = new List<MusicRecord>();
+
+            if (filter != null)
+            {
+                foreach (MusicRecord item in _musicRecords) 
+                {
+                    if (item.Title.Contains(filter) || item.Artist.Contains(filter) || item.Genre.Contains(filter))
+                    {
+                        copy.Add(item);
+                    }
+                }
+
+            }
+            else
+            {
+                copy = new List<MusicRecord>(_musicRecords);
+            }
+
             return copy;
         }
         
