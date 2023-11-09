@@ -2,8 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace RestPair.Controllers;
 
+[Route("api/[controller]")]
 [ApiController]
-[Route("[controller]")]
 public class MusicRecordsController : ControllerBase
 {
     private readonly MusicRecordsRepo _musicRecordsRepo;
