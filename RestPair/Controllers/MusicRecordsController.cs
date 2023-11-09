@@ -14,7 +14,6 @@ public class MusicRecordsController : ControllerBase
     }
 
     [HttpGet]
-    [Route("GetAllMusicRecords")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public ActionResult<List<MusicRecord>> GetAllMusicRecords()
     {
