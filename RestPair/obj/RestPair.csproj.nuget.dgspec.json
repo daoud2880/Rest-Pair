@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wamas\\Source\\Repos\\Rest-Pair\\RestPair\\RestPair.csproj": {}
+    "C:\\Users\\wamas\\OneDrive\\Documents\\Sem3\\new visual studio project folder who dis\\Rest-Pair\\RestPair\\RestPair.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wamas\\Source\\Repos\\Rest-Pair\\RestPair\\RestPair.csproj": {
+    "C:\\Users\\wamas\\OneDrive\\Documents\\Sem3\\new visual studio project folder who dis\\Rest-Pair\\RestPair\\RestPair.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wamas\\Source\\Repos\\Rest-Pair\\RestPair\\RestPair.csproj",
+        "projectUniqueName": "C:\\Users\\wamas\\OneDrive\\Documents\\Sem3\\new visual studio project folder who dis\\Rest-Pair\\RestPair\\RestPair.csproj",
         "projectName": "RestPair",
-        "projectPath": "C:\\Users\\wamas\\Source\\Repos\\Rest-Pair\\RestPair\\RestPair.csproj",
+        "projectPath": "C:\\Users\\wamas\\OneDrive\\Documents\\Sem3\\new visual studio project folder who dis\\Rest-Pair\\RestPair\\RestPair.csproj",
         "packagesPath": "C:\\Users\\wamas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wamas\\Source\\Repos\\Rest-Pair\\RestPair\\obj\\",
+        "outputPath": "C:\\Users\\wamas\\OneDrive\\Documents\\Sem3\\new visual studio project folder who dis\\Rest-Pair\\RestPair\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wamas\\AppData\\Roaming\\NuGet\\NuGet.Config",
