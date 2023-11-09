@@ -9,7 +9,7 @@ public class MusicRecord
     public int? Release { get; set; }
     public string Genre { get; set; }
 
-    public MusicRecord(string title, string artist, int release, string genre)
+    public MusicRecord(string title, string artist, int? release, string genre)
     {
         Title = title;
         Artist = artist;
@@ -30,7 +30,7 @@ public class MusicRecord
 
     }
 
-    public void ValidateArtist ()
+    public void ValidateArtist()
     {
         if (Artist == null)
         {
@@ -42,11 +42,11 @@ public class MusicRecord
         }
     }
 
-    public void ValidateRealease()
+    public void ValidateRelease()
     {
         if (Release <= 1000)
         {
-            throw new ArgumentException("Release must be greater than 1000");
+            throw new ArgumentOutOfRangeException("Release must be greater than 1000");
         }
         if (Release == null)
         {

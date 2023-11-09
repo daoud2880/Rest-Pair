@@ -13,10 +13,9 @@ public class MusicRecordsController : ControllerBase
         _musicRecordsRepo = musicRecordsRepo;
     }
 
-    [ProducesResponseType(StatusCodes.Status200OK)]
-
     [HttpGet]
     [Route("GetAllMusicRecords")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
     public ActionResult<List<MusicRecord>> GetAllMusicRecords()
     {
         return Ok(_musicRecordsRepo.GetAllMusicRecords());
