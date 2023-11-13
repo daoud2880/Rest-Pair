@@ -2780,34 +2780,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wamas\\.nuget\\packages\\": {}
+    "/Users/daoudahmad/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wamas\\OneDrive\\Documents\\Sem3\\new visual studio project folder who dis\\Rest-Pair\\RestPairTests\\RestPairTests.csproj",
+      "projectUniqueName": "/Users/daoudahmad/Desktop/Rest Pair/RestPairTests/RestPairTests.csproj",
       "projectName": "RestPairTests",
-      "projectPath": "C:\\Users\\wamas\\OneDrive\\Documents\\Sem3\\new visual studio project folder who dis\\Rest-Pair\\RestPairTests\\RestPairTests.csproj",
-      "packagesPath": "C:\\Users\\wamas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wamas\\OneDrive\\Documents\\Sem3\\new visual studio project folder who dis\\Rest-Pair\\RestPairTests\\obj\\",
+      "projectPath": "/Users/daoudahmad/Desktop/Rest Pair/RestPairTests/RestPairTests.csproj",
+      "packagesPath": "/Users/daoudahmad/.nuget/packages/",
+      "outputPath": "/Users/daoudahmad/Desktop/Rest Pair/RestPairTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\wamas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/daoudahmad/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\wamas\\OneDrive\\Documents\\Sem3\\new visual studio project folder who dis\\Rest-Pair\\RestPair\\RestPair.csproj": {
-              "projectPath": "C:\\Users\\wamas\\OneDrive\\Documents\\Sem3\\new visual studio project folder who dis\\Rest-Pair\\RestPair\\RestPair.csproj"
+            "/Users/daoudahmad/Desktop/Rest Pair/RestPair/RestPair.csproj": {
+              "projectPath": "/Users/daoudahmad/Desktop/Rest Pair/RestPair/RestPair.csproj"
             }
           }
         }
@@ -2855,7 +2854,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
       }
     }
   }
