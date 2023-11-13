@@ -7,19 +7,20 @@
   <MonoDevelop.Ide.ItemProperties.RestPair PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="RestPair/MusicRecordsRepo.cs">
     <Files>
-      <File FileName="RestPair/MusicRecord.cs" />
+      <File FileName="RestPair/MusicRecord.cs" Line="11" Column="1" />
       <File FileName="RestPair/Program.cs" />
-      <File FileName="RestPair/MusicRecordsRepo.cs" Line="1" Column="1" />
+      <File FileName="RestPair/MusicRecordsRepo.cs" Line="63" Column="24" />
       <File FileName="RestPair/Controllers/MusicRecordsController.cs" />
-      <File FileName="RestPairTests/MusicRecordTests.cs" Line="1" Column="1" />
+      <File FileName="RestPairTests/MusicRecordTests.cs" />
       <File FileName="../../../../usr/local/share/dotnet/sdk/7.0.310/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Rest Pair">
-            <Node name="RestPair" expanded="True" selected="True" />
-            <Node name="RestPairTests" expanded="True" />
+          <Node name="Rest Pair" expanded="True">
+            <Node name="RestPair">
+              <Node name="MusicRecordsRepo.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
