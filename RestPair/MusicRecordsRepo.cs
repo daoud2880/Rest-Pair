@@ -39,6 +39,14 @@ namespace RestPair
 
             return copy;
         }
-        
+
+        public MusicRecord Add(MusicRecord record)
+        {
+            record.Validate();
+
+            _musicRecords.Add(record);
+
+            return record;
+        }
     }
 }

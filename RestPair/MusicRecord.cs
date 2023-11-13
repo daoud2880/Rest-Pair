@@ -59,11 +59,20 @@ public class MusicRecord
         {
             throw new ArgumentNullException("Genre cannot be null");
         }
-        if(Genre.Length <= 0)
+        if (Genre.Length <= 0)
         {
             throw new ArgumentException("Genre must be at least 1 characters long");
         }
     }
+
+    public void Validate()
+    {
+        ValidateTitle();
+        ValidateArtist();
+        ValidateRelease();
+        ValidateGenre();
+    }
+
     public override string ToString()
     {
         return $"{Title}, {Artist}, {Release}, {Genre}";

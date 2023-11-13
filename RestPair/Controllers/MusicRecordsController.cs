@@ -20,4 +20,20 @@ public class MusicRecordsController : ControllerBase
         return Ok(_musicRecordsRepo.GetAllMusicRecords(filter));
     }
 
+    [HttpPost]
+    [ProducesResponseType(StatusCodes.Status201Created)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public ActionResult<MusicRecord> AddMusicRecord([FromBody] MusicRecord record)
+    {
+        try
+        {
+            MusicRecord addedRecord = _musicRecordsRepo.Add(record);
+            return Created("/" + record.Title, addedRecord);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
 }
