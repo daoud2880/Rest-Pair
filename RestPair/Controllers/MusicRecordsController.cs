@@ -15,9 +15,9 @@ public class MusicRecordsController : ControllerBase
 
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public ActionResult<List<MusicRecord>> GetAllMusicRecords()
+    public ActionResult<List<MusicRecord>> GetAllMusicRecords([FromQuery] string? filter)
     {
-        return Ok(_musicRecordsRepo.GetAllMusicRecords());
+        return Ok(_musicRecordsRepo.GetAllMusicRecords(filter));
     }
 
 }
