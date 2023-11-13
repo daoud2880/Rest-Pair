@@ -1,0 +1,24 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Rest Pair/DesignTimeBuild/.dtbcache.v2
+/.vs/Rest Pair/FileContentIndex/4ea302fc-48e1-4d17-9a78-060ffc764a37.vsidx
+/.vs/Rest Pair/FileContentIndex/f29c0439-38d5-4b1c-99b8-e76f15d5a019.vsidx
+/.vs/Rest Pair/v17/.suo
+/RestPair/obj/Debug/net7.0/RestPair.assets.cache
+/RestPair/obj/Debug/net7.0/RestPair.GeneratedMSBuildEditorConfig.editorconfig
+/RestPair/obj/project.assets.json
+/RestPair/obj/project.nuget.cache
+/RestPair/obj/RestPair.csproj.nuget.dgspec.json
+/RestPair/obj/RestPair.csproj.nuget.g.props
+/RestPair/obj/RestPair.csproj.nuget.g.targets
+/RestPairTests/bin/Debug/net7.0/CoverletSourceRootsMapping
+/RestPairTests/obj/Debug/net7.0/RestPairTests.assets.cache
+/RestPairTests/obj/Debug/net7.0/RestPairTests.csproj.AssemblyReference.cache
+/RestPairTests/obj/Debug/net7.0/RestPairTests.GeneratedMSBuildEditorConfig.editorconfig
+/RestPairTests/obj/project.assets.json
+/RestPairTests/obj/project.nuget.cache
+/RestPairTests/obj/RestPairTests.csproj.nuget.dgspec.json
+/RestPairTests/obj/RestPairTests.csproj.nuget.g.props
+/RestPairTests/obj/RestPairTests.csproj.nuget.g.targets
