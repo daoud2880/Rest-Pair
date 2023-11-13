@@ -62,5 +62,24 @@ namespace RestPair
 
             return tbd;
         }
+
+        public MusicRecord? Update(string title, MusicRecord newRecord)
+        {
+            newRecord.Validate();
+
+            MusicRecord? tbu = _musicRecords.FirstOrDefault(x => x.Title == title);
+
+            if (tbu == null)
+            {
+                return null;
+            }
+
+            tbu.Title = newRecord.Title;
+            tbu.Artist = newRecord.Artist;
+            tbu.Release = newRecord.Release;
+            tbu.Genre = newRecord.Genre;
+
+            return tbu;
+        }
     }
 }

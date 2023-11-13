@@ -15,7 +15,7 @@ public class MusicRecordsController : ControllerBase
 
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public ActionResult<List<MusicRecord>> GetAllMusicRecords([FromQuery] string? filter)
+    public ActionResult<List<MusicRecord?>> GetAllMusicRecords([FromQuery] string? filter)
     {
         return Ok(_musicRecordsRepo.GetAllMusicRecords(filter));
     }
@@ -23,7 +23,7 @@ public class MusicRecordsController : ControllerBase
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public ActionResult<MusicRecord> AddMusicRecord([FromBody] MusicRecord record)
+    public ActionResult<MusicRecord?> AddMusicRecord([FromBody] MusicRecord record)
     {
         try
         {
@@ -40,7 +40,7 @@ public class MusicRecordsController : ControllerBase
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public ActionResult<MusicRecord> DeleteMusicRecord(string title)
+    public ActionResult<MusicRecord?> DeleteMusicRecord(string title)
     {
         try
         {
@@ -60,4 +60,27 @@ public class MusicRecordsController : ControllerBase
         }
     }
 
+    [HttpPut("{title}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public ActionResult<MusicRecord?> Put(string title, [FromBody] MusicRecord record)
+    {
+        try
+        {
+            MusicRecord? updated = _musicRecordsRepo.Update(title, record);
+
+            if (updated != null)
+            {
+                return Ok(updated);
+            }
+
+            return NotFound();
+
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
 }
