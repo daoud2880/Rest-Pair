@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{B7EBE962-0FF2-43CC-A468-9F2BA9BCCC82}|https">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../usr/local/share/dotnet/sdk/7.0.310/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RestPairTests/MusicRecordTests.cs">
     <Files>
-      <File FileName="RestPair/MusicRecord.cs" Line="1" Column="1" />
-      <File FileName="RestPair/Program.cs" Line="3" Column="1" />
+      <File FileName="RestPair/MusicRecord.cs" Line="4" Column="1" />
+      <File FileName="RestPair/Program.cs" Line="41" Column="25" />
       <File FileName="RestPair/MusicRecordsRepo.cs" Line="1" Column="1" />
-      <File FileName="RestPair/Controllers/MusicRecordsController.cs" Line="1" Column="1" />
+      <File FileName="RestPair/Controllers/MusicRecordsController.cs" />
       <File FileName="RestPairTests/MusicRecordTests.cs" Line="1" Column="1" />
       <File FileName="../../../../usr/local/share/dotnet/sdk/7.0.310/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="13" Column="1" />
     </Files>
@@ -13,10 +13,10 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Rest Pair">
-            <Node name="RestPair" expanded="True" selected="True">
-              <Node name="Controllers" expanded="True" />
+            <Node name="RestPair" expanded="True" />
+            <Node name="RestPairTests" expanded="True">
+              <Node name="MusicRecordTests.cs" selected="True" />
             </Node>
-            <Node name="RestPairTests" expanded="True" />
           </Node>
         </State>
       </Pad>
