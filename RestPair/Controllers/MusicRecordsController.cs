@@ -36,4 +36,28 @@ public class MusicRecordsController : ControllerBase
         }
     }
 
+    [HttpDelete]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public ActionResult<MusicRecord> DeleteMusicRecord(string title)
+    {
+        try
+        {
+            MusicRecord? deleted = _musicRecordsRepo.Delete(title);
+
+            if (deleted != null)
+            {
+                return Ok(deleted);
+            }
+
+            return NotFound();
+
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
 }

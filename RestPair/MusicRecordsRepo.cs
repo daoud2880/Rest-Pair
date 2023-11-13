@@ -48,5 +48,19 @@ namespace RestPair
 
             return record;
         }
+
+        public MusicRecord? Delete(string title)
+        {
+            MusicRecord? tbd = _musicRecords.FirstOrDefault(x => x.Title == title);
+
+            if (tbd == null)
+            {
+                return null;
+            }
+
+            _musicRecords.Remove(tbd);
+
+            return tbd;
+        }
     }
 }
