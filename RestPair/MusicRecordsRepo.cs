@@ -17,22 +17,22 @@ namespace RestPair
             _musicRecords.Add(new MusicRecord("Wish You Were Here", "Pink Floyd", 1975, "Progressive rock"));
             _musicRecords.Add(new MusicRecord("Abbey Road", "The Beatles", 1969, "Rock"));
 
-            _musicRecords[0]._tracks.Add(new Track(1, "Speak to Me", 90));
-            _musicRecords[0]._tracks.Add(new Track(2, "Breathe", 163));
-            _musicRecords[0]._tracks.Add(new Track(3, "On the Run", 216));
+            _musicRecords[0].AddTrack(1, "Speak to Me", 90);
+            _musicRecords[0].AddTrack(2, "Breathe", 163);
+            _musicRecords[0].AddTrack(3, "On the Run", 216);
 
-            _musicRecords[1]._tracks.Add(new Track(4, "Time", 421));
-            _musicRecords[1]._tracks.Add(new Track(5, "The Great Gig in the Sky", 276));
-            _musicRecords[1]._tracks.Add(new Track(6, "Money", 382));
+            _musicRecords[1].AddTrack(4, "Time", 421);
+            _musicRecords[1].AddTrack(5, "The Great Gig in the Sky", 276);
+            _musicRecords[1].AddTrack(6, "Money", 382);
 
-            _musicRecords[2]._tracks.Add(new Track(7, "Shine On You Crazy Diamond", 810));
-            _musicRecords[2]._tracks.Add(new Track(8, "Have a Cigar", 298));
-            _musicRecords[2]._tracks.Add(new Track(9, "Wish You Were Here", 334));
+            _musicRecords[2].AddTrack(7, "Shine On You Crazy Diamond", 810);
+            _musicRecords[2].AddTrack(8, "Have a Cigar", 298);
+            _musicRecords[2].AddTrack(9, "Wish You Were Here", 334  );
 
-            _musicRecords[3]._tracks.Add(new Track(10, "Come Together", 259));
-            _musicRecords[3]._tracks.Add(new Track(11, "Something", 182));
-            _musicRecords[3]._tracks.Add(new Track(12, "Maxwell's Silver Hammer", 231));
-            _musicRecords[3]._tracks.Add(new Track(13, "Oh! Darling", 217));
+            _musicRecords[3].AddTrack(10, "Come Together", 259);
+            _musicRecords[3].AddTrack(11, "Something", 182);
+            _musicRecords[3].AddTrack(12, "Maxwell's Silver Hammer", 231);
+            _musicRecords[3].AddTrack(13, "Oh! Darling", 217);
 
 
         }

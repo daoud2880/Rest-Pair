@@ -74,7 +74,7 @@ public class MusicRecord
         ValidateRelease();
         ValidateGenre();
     }
-    public List<Track> listOfTracks(int id, string name, int? duration)
+    public List<Track> AddTrack(int id, string name, int? duration)
         {
             _tracks.Add(new Track(nextId, name, duration));
             nextId++;
