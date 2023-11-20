@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{B7EBE962-0FF2-43CC-A468-9F2BA9BCCC82}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.RestPair PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="RestPair/MusicRecordsRepo.cs">
     <Files>
       <File FileName="RestPair/MusicRecord.cs" />
       <File FileName="RestPair/Program.cs" />
-      <File FileName="RestPair/MusicRecordsRepo.cs" Line="63" Column="24" />
+      <File FileName="RestPair/MusicRecordsRepo.cs" Line="63" Column="10" />
       <File FileName="RestPair/Controllers/MusicRecordsController.cs" />
       <File FileName="RestPairTests/MusicRecordTests.cs" />
-      <File FileName="../../../../usr/local/share/dotnet/sdk/7.0.310/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,5 +24,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
