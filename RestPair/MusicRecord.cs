@@ -8,13 +8,15 @@ public class MusicRecord
     public string Artist { get; set; }
     public int? Release { get; set; }
     public string Genre { get; set; }
+    public List<Track> _tracks = new List<Track>();
 
-    public MusicRecord(string title, string artist, int? release, string genre)
+    public MusicRecord(string title, string artist, int? release, string genre, List<Track> tracks)
     {
         Title = title;
         Artist = artist;
         Release = release;
         Genre = genre;
+        _tracks = tracks;
     }
 
     public void ValidateTitle()
