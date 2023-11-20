@@ -83,7 +83,14 @@ public class MusicRecord
 
     public override string ToString()
     {
-        return $"{Title}, {Artist}, {Release}, {Genre}";
+        string? tracks = "";
+
+        foreach (Track t in _tracks)
+        {
+            tracks = tracks + $"{t.Id},{t.Name},{t.Duration}, ";
+        }
+
+        return $"{Title}, {Artist}, {Release}, {Genre}, {tracks}";
     }
 }
 
