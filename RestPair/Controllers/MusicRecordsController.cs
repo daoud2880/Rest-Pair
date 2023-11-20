@@ -20,6 +20,13 @@ public class MusicRecordsController : ControllerBase
         return Ok(_musicRecordsRepo.GetAllMusicRecords(filter));
     }
 
+    [HttpGet("recordName")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    public ActionResult<List<MusicRecord?>> GetFromRecord([FromQuery] string? recordName)
+    {
+        return Ok(_musicRecordsRepo.GetFromRecord(recordName));
+    }
+
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]

@@ -104,6 +104,20 @@ namespace RestPair
             return tbu;
         }
 
+        public List<Track> GetFromRecord(string? recordName)
+        {
+            List<Track> copy = new List<Track>();
+
+            MusicRecord? record = _musicRecords.FirstOrDefault(x => x.Title == recordName);
+
+            if (record != null)
+            {
+                copy = new List<Track>(record._tracks);
+            }
+
+            return copy;
+        }
+
         public Track AddToRecord(string musicRecord, Track track)
         {
             MusicRecord? record = _musicRecords.FirstOrDefault(x => x.Title == musicRecord);
