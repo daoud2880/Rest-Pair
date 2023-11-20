@@ -9,14 +9,14 @@ public class MusicRecord
     public int? Release { get; set; }
     public string Genre { get; set; }
     public List<Track> _tracks = new List<Track>();
+    public int nextId = 1;
 
-    public MusicRecord(string title, string artist, int? release, string genre, List<Track> tracks)
+    public MusicRecord(string title, string artist, int? release, string genre)
     {
         Title = title;
         Artist = artist;
         Release = release;
         Genre = genre;
-        _tracks = tracks;
     }
 
     public void ValidateTitle()
@@ -74,6 +74,12 @@ public class MusicRecord
         ValidateRelease();
         ValidateGenre();
     }
+    public List<Track> listOfTracks(int id, string name, int? duration)
+        {
+            _tracks.Add(new Track(nextId, name, duration));
+            nextId++;
+            return _tracks;
+        }
 
     public override string ToString()
     {

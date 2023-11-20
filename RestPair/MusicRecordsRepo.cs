@@ -7,20 +7,34 @@ namespace RestPair
 {
     public class MusicRecordsRepo
     {
-        public List<Track> listOfTracks(int id, string name, int? duration)
-        {
-            List<Track> tracks = new List<Track>();
-            tracks.Add(new Track(id, name, duration));
-            return tracks;
-        }
+        
         private List<MusicRecord> _musicRecords;
         public MusicRecordsRepo()
         {
             _musicRecords = new List<MusicRecord>();
-            _musicRecords.Add(new MusicRecord("The Dark Side of the Moon", "Pink Floyd", 1973, "Progressive rock", listOfTracks(1,"Speak to Me", 90)));
-            _musicRecords.Add(new MusicRecord("The Wall", "Pink Floyd", 1979, "Progressive rock", listOfTracks(1,"In the Flesh?", 180)));
-            _musicRecords.Add(new MusicRecord("Wish You Were Here", "Pink Floyd", 1975, "Progressive rock",listOfTracks(1,"Shine On You Crazy Diamond", 810)));
-            _musicRecords.Add(new MusicRecord("Abbey Road", "The Beatles", 1969, "Rock", listOfTracks(1,"Come Together", 260)));
+            _musicRecords.Add(new MusicRecord("The Dark Side of the Moon", "Pink Floyd", 1973, "Progressive rock"));
+            _musicRecords.Add(new MusicRecord("The Wall", "Pink Floyd", 1979, "Progressive rock"));
+            _musicRecords.Add(new MusicRecord("Wish You Were Here", "Pink Floyd", 1975, "Progressive rock"));
+            _musicRecords.Add(new MusicRecord("Abbey Road", "The Beatles", 1969, "Rock"));
+
+            _musicRecords[0]._tracks.Add(new Track(1, "Speak to Me", 90));
+            _musicRecords[0]._tracks.Add(new Track(2, "Breathe", 163));
+            _musicRecords[0]._tracks.Add(new Track(3, "On the Run", 216));
+
+            _musicRecords[1]._tracks.Add(new Track(4, "Time", 421));
+            _musicRecords[1]._tracks.Add(new Track(5, "The Great Gig in the Sky", 276));
+            _musicRecords[1]._tracks.Add(new Track(6, "Money", 382));
+
+            _musicRecords[2]._tracks.Add(new Track(7, "Shine On You Crazy Diamond", 810));
+            _musicRecords[2]._tracks.Add(new Track(8, "Have a Cigar", 298));
+            _musicRecords[2]._tracks.Add(new Track(9, "Wish You Were Here", 334));
+
+            _musicRecords[3]._tracks.Add(new Track(10, "Come Together", 259));
+            _musicRecords[3]._tracks.Add(new Track(11, "Something", 182));
+            _musicRecords[3]._tracks.Add(new Track(12, "Maxwell's Silver Hammer", 231));
+            _musicRecords[3]._tracks.Add(new Track(13, "Oh! Darling", 217));
+
+
         }
 
 

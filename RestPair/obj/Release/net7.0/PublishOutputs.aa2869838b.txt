@@ -1,0 +1,12 @@
+/Users/daoudahmad/Desktop/3 semester/Opgaver/Rest Pair/RestPair/obj/Release/net7.0/PubTmp/Out/RestPair
+/Users/daoudahmad/Desktop/3 semester/Opgaver/Rest Pair/RestPair/obj/Release/net7.0/PubTmp/Out/appsettings.Development.json
+/Users/daoudahmad/Desktop/3 semester/Opgaver/Rest Pair/RestPair/obj/Release/net7.0/PubTmp/Out/appsettings.json
+/Users/daoudahmad/Desktop/3 semester/Opgaver/Rest Pair/RestPair/obj/Release/net7.0/PubTmp/Out/RestPair.dll
+/Users/daoudahmad/Desktop/3 semester/Opgaver/Rest Pair/RestPair/obj/Release/net7.0/PubTmp/Out/RestPair.deps.json
+/Users/daoudahmad/Desktop/3 semester/Opgaver/Rest Pair/RestPair/obj/Release/net7.0/PubTmp/Out/RestPair.runtimeconfig.json
+/Users/daoudahmad/Desktop/3 semester/Opgaver/Rest Pair/RestPair/obj/Release/net7.0/PubTmp/Out/RestPair.pdb
+/Users/daoudahmad/Desktop/3 semester/Opgaver/Rest Pair/RestPair/obj/Release/net7.0/PubTmp/Out/Microsoft.AspNetCore.OpenApi.dll
+/Users/daoudahmad/Desktop/3 semester/Opgaver/Rest Pair/RestPair/obj/Release/net7.0/PubTmp/Out/Microsoft.OpenApi.dll
+/Users/daoudahmad/Desktop/3 semester/Opgaver/Rest Pair/RestPair/obj/Release/net7.0/PubTmp/Out/Swashbuckle.AspNetCore.Swagger.dll
+/Users/daoudahmad/Desktop/3 semester/Opgaver/Rest Pair/RestPair/obj/Release/net7.0/PubTmp/Out/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/daoudahmad/Desktop/3 semester/Opgaver/Rest Pair/RestPair/obj/Release/net7.0/PubTmp/Out/Swashbuckle.AspNetCore.SwaggerUI.dll
