@@ -7,7 +7,7 @@
   <MonoDevelop.Ide.ItemProperties.RestPair PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="RestPair/MusicRecordsRepo.cs">
     <Files>
-      <File FileName="RestPair/MusicRecord.cs" Line="11" Column="1" />
+      <File FileName="RestPair/MusicRecord.cs" />
       <File FileName="RestPair/Program.cs" />
       <File FileName="RestPair/MusicRecordsRepo.cs" Line="63" Column="24" />
       <File FileName="RestPair/Controllers/MusicRecordsController.cs" />
@@ -17,10 +17,8 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Rest Pair" expanded="True">
-            <Node name="RestPair">
-              <Node name="MusicRecordsRepo.cs" selected="True" />
-            </Node>
+          <Node name="Rest Pair">
+            <Node name="RestPair" expanded="True" />
           </Node>
         </State>
       </Pad>
